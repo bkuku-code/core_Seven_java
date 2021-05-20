@@ -8,14 +8,12 @@ public class BikeTest {
     Bike myBike = new Bike( "Honda");
 
          @Test
-        public void testThatBikeHasProductName(){
-        assertEquals("Honda" , myBike.getProductName());
+            public void testThatBikeHasProductName(){
+             assertEquals("Honda" , myBike.getProductName());
     }
         @Test
         public void testThatBikeCanBeTurnedOn() {
         myBike.setOn(true);
-        myBike.setAcceleration(true);
-        myBike.setDeccelerate(true);
         assertTrue(myBike.isOn());
     }
          @Test
@@ -26,10 +24,15 @@ public class BikeTest {
         @Test
          public void testForSpeedWhenAccelerating(){
              myBike.setOn(true);
-             myBike.Speed();
+//             assertEquals(myBike.getSpeed());
         }
 
-        }
+
+
+
+    }
+
+
 
 
 
