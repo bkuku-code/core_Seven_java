@@ -18,16 +18,15 @@ public class Bike {
     public boolean isOn() {
         return isOn;
     }
-    public void setAcceleration(boolean isOn) {
-        this.isOn =isOn;
-    }
-    public void setDeccelerate(boolean isOn) {
-        this.isOn =isOn;
-    }
-    public void Speed() {
-        if(isOn && speed>= 99);
-            speed = speed +5;
-    }
+    public void accelerate() {
+        speed = speed + 1;
 
     }
+
+    public void decelerate() {
+        speed = speed -1;
+}
+}
+
+
 

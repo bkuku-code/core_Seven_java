@@ -30,7 +30,7 @@ public class InvoiceTest {
         public void testAccountInvoice(){
          myInvoice.setPrice(24.00);
          myInvoice.setQuantity(15);
-         assertEquals(360.00,myInvoice.getAccountInvoice());
+         assertEquals(360.0,myInvoice.getAccountInvoice());
         }
     }
 
