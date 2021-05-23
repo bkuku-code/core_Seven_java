@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 		Scanner input = new Scanner (System.in);
 
-		int number1 =10;
-		int number2 =20;
+		int number1 ;
+		int number2 ;
 		
 
 		System.out.print("Enter first number");
