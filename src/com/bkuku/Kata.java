@@ -90,7 +90,7 @@ public class Kata {
              costPrice = 1000;
              sellingPrice = 50000;
              totalResellerProfit = (sellingPrice * copies) - (costPrice * copies);
-         }else if (copies >= 100 && copies <=199) {
+         }else if (copies >= 100 && copies <=  199) {
              costPrice = 900;
              sellingPrice = 90000;
              totalResellerProfit = (sellingPrice * copies) - (costPrice * copies);
@@ -98,6 +98,26 @@ public class Kata {
 
              return totalResellerProfit;
 
+         }
+         public class Factor{
+
+             private static int number;
+
+             public static void main(String[] args){
+                Scanner scanner = new Scanner (System.in);
+
+                int counter =0;
+                int factor = 1;
+                System.out.println("Enter Number");
+                while (factor <= number){
+                    if(number % factor ==0){
+
+                        counter++;
+                        factor++;
+                    }
+
+                }
+            }
          }
 
     }
