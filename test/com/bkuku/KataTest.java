@@ -37,62 +37,62 @@ class KataTest {
 
     }
     @Test
-    void toShowTotalValueForPurchaseBetweenOneToFourCopies(){
+    void toShowTotalPiceResellerBuysBetweenOneToFourCopies(){
         Kata realKata =new Kata();
         assertEquals(3*1500, realKata.totalPriceResellerBuys(3));
     }
     @Test
-    void toShowTotalValuePurchaseBetweenFiveToNineCopies(){
+    void toShowTotalPiceResellerBuysBetweenFiveToNineCopies(){
         Kata realKata = new Kata();
         assertEquals(6*1400, realKata.totalPriceResellerBuys(6));
     }
     @Test
-    void toShowTotalValuePurchaseBetweenTenToTwentyNine(){
+    void toShowTotalPiceResellerBuysTenToTwentyNine(){
         Kata realKata = new Kata();
         assertEquals(10*1200, realKata.totalPriceResellerBuys(10));
     }
     @Test
-    void toShowTotalValuePurchaseBetweenThirtyToFourtyNine(){
+    void toShowTotalPiceResellerBuysBetweenThirtyToFourtyNine(){
         Kata realKata = new Kata();
         assertEquals(35*1100, realKata.totalPriceResellerBuys(35));
     }
     @Test
-    void toShowTotalValuePurchaseBetweenFiftyToNinetyNie(){
+    void toShowTotalPiceResellerBuysBetweenFiftyToNinetyNie(){
         Kata realKata = new Kata();
         assertEquals(50*1000, realKata.totalPriceResellerBuys(50));
     }
     @Test
-    void toShowTotalValuePurchaseBetweenOneHundredToOneHundredAndNinetyNine(){
+    void toShowTotalPiceResellerBuysBetweenOneHundredToOneHundredAndNinetyNine(){
         Kata realKata = new Kata();
         assertEquals(100*900, realKata.totalPriceResellerBuys(100));
     }
     @Test
-    void toShowProfitBetweenOneToFourCopies(){
+    void toShowTotalResellerProfitBetweenOneToFourCopies(){
         Kata realKata = new Kata ();
         assertEquals((4500*3)-(1500*3), realKata.totalResellerProfit(3));
     }
     @Test
-    void toShowProfitBetweenFiveToNineCopies(){
+    void toShowTotalResellerProfitBetweenFiveToNineCopies(){
         Kata  realKata = new Kata();
         assertEquals((8400*6)-(1400*6), realKata.totalResellerProfit(6));
     }
     @Test
-    void toShowProfitBetweenTenToTwentyNineCopies(){
+    void toShowTotalResellerProfitBetweenTenToTwentyNineCopies(){
         Kata realKata = new Kata();
         assertEquals((12000*10)-(1200*10), realKata.totalResellerProfit(10));
     }
     @Test
-    void toShowProfitBetweenThirthyToFourtyNineCopies(){
+    void toShowTotalResellerProfitBetweenThirthyToFourtyNineCopies(){
         Kata realKata = new Kata();
         assertEquals((38500*35)-(1100*35), realKata.totalResellerProfit(35));
     }
     @Test
-    void toShowProfitBetweenFiftyToNinetyNineCopies(){
+    void toShowTotalResellerProfitBetweenFiftyToNinetyNineCopies(){
         Kata  realKata = new Kata();
         assertEquals((50000*50)-(1000*50), realKata.totalResellerProfit(50));
     }
     @Test
-    void toShowProfitBetweenOneHundredToOneHundredAndNinetyNine() {
+    void toShowTotalResellerProfitBetweenOneHundredToOneHundredAndNinetyNine() {
         Kata realKata = new Kata();
         assertEquals((90000 * 100) - (900 * 100), realKata.totalResellerProfit(100));
 

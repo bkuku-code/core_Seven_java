@@ -6,7 +6,7 @@ public class NumberScores {
 
     public static void main(String[] args) {
 
-        int count = 0;
+      int count = 0;
         int score = 0;
         int total = 0;
 
@@ -16,11 +16,14 @@ public class NumberScores {
             count++;
             total = total + score;
 
-            System.out.println("Enter a Number or -1 to exit");
+            System.out.print("Enter a Number or -1 to exit :");
             score = sc.nextInt();
 
         }
         System.out.println("The sum is " + total);
         System.out.println("The average is " + total / count);
-    }
+  }
+
+
+
 }
