@@ -4,7 +4,7 @@ public class TwelveDaysOfXmas {
     public static void main(String[] args) {
         int day = 1;
         String dayOf12 = "";
-        while(day <= 3){
+        while(day <= 12){
             switch (day){
                 case 1: dayOf12 = "first";
                 break;
