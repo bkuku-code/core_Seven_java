@@ -95,8 +95,10 @@ class KataTest {
     void toShowTotalResellerProfitBetweenOneHundredToOneHundredAndNinetyNine() {
         Kata realKata = new Kata();
         assertEquals((90000 * 100) - (900 * 100), realKata.totalResellerProfit(100));
+    }
+
 
     }
 
 
-}
+
