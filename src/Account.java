@@ -18,7 +18,7 @@ public class Account {
         Account myAccount = new Account();
         System.out.println("My Account's name is " + myAccount.getName());
 
-//        myAccount.setName("Toba Armani");
+       myAccount.setName("Toba Armani");
 
         System.out.println("Enter a name: ");
         String myName = kata.nextLine();
